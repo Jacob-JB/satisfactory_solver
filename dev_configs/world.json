@@ -1,0 +1,60 @@
+{
+    "items": [
+        "Iron Ore",
+        "Coal",
+
+        "Iron Ingot",
+        "Steel Ingot",
+
+        "Iron Rod",
+        "Iron Plate"
+    ],
+    "recipes": [
+        {
+            "name": "Standard Iron Ingot",
+            "per_machine": 30,
+            "tags": ["Standard"],
+            "items": [
+                ["Iron Ore", -1],
+                ["Iron Ingot", 1]
+            ]
+        },
+        {
+            "name": "Solid Steel Ingot",
+            "per_machine": 20,
+            "tags": ["Alternate"],
+            "items": [
+                ["Iron Ingot", -2],
+                ["Coal", -2],
+                ["Steel Ingot", 3]
+            ]
+        },
+        {
+            "name": "Standard Iron Rod",
+            "per_machine": 15,
+            "tags": ["Standard"],
+            "items": [
+                ["Iron Ingot", -1],
+                ["Iron Rod", 1]
+            ]
+        },
+        {
+            "name": "Steel Rod",
+            "per_machine": 12,
+            "tags": ["Standard"],
+            "items": [
+                ["Steel Ingot", -1],
+                ["Iron Rod", 4]
+            ]
+        },
+        {
+            "name": "Standard Iron Plate",
+            "per_machine": 10,
+            "tags": ["Standard"],
+            "items": [
+                ["Iron Ingot", -3],
+                ["Iron Plate", 2]
+            ]
+        }
+    ]
+}
