@@ -1,0 +1,20 @@
+{
+    "round_zeros": 8,
+    "rules": [
+        {"GreaterThan": ["Rubber", 0]},
+
+        {"LessThan": ["Crude Oil", 0]},
+        {"GreaterThan": ["Crude Oil", -300]},
+
+        {"LessThan": ["Water", 0]},
+
+        {"NoDefault": "Mega Joule"}
+    ],
+    "optimize": [
+        ["Rubber", 1]
+    ],
+    "enabled_recipes": [
+        "Standard",
+        "Alternate"
+    ]
+}

@@ -1,0 +1,3434 @@
+{
+    "items": [
+        "Mega Joule",
+
+        "Iron Ore",
+        "Copper Ore",
+        "Limestone",
+        "Coal",
+        "Caterium Ore",
+        "Raw Quartz",
+        "Bauxite",
+        "Sulfur",
+        "Uranium",
+
+        "Iron Ingot",
+        "Copper Ingot",
+        "Caterium Ingot",
+        "Steel Ingot",
+        "Aluminum Ingot",
+
+        "Iron Plate",
+        "Iron Rod",
+        "Screw",
+
+        "Concrete",
+        "Compacted Coal",
+
+        "Wire",
+        "Cable",
+        "Copper Sheet",
+        "Quickwire",
+        "AI Limiter",
+        "Circuit Board",
+        "High Speed Connector",
+
+        "Quartz Crystal",
+        "Silica",
+
+        "Steel Beam",
+        "Steel Pipe",
+        "Encased Industrial Beam",
+
+        "Reinforced Iron Plate",
+        "Rotor",
+        "Stator",
+        "Motor",
+
+        "Modular Frame",
+        "Heavy Modular Frame",
+        "Fused Modular Frame",
+
+        "Beacon",
+        "Computer",
+        "Crystal Oscillator",
+        "Radio Control Unit",
+        "Supercomputer",
+        "Turbo Motor",
+
+        "Rubber",
+        "Plastic",
+        "Polymer Resin",
+        "Petroleum Coke",
+
+        "Aluminum Scrap",
+        "Aluminum Casing",
+        "Alclad Aluminum Sheet",
+        "Heat Sink",
+        "Cooling System",
+        "Battery",
+
+        "Encased Uranium Cell",
+        "Electromagnetic Control Rod",
+        "Uranium Fuel Rod",
+        "Uranium Waste",
+        "Non Fissle Uranium",
+        "Plutonium Pellet",
+        "Encased Plutonium Cell",
+        "Plutonium Fuel Rod",
+
+        "Pressure Conversion Cube",
+        "Copper Powder",
+
+        "Smart Plating",
+        "Versatile Framework",
+        "Automated Wiring",
+        "Modular Engine",
+        "Adaptive Control Unit",
+        "Assembly Director System",
+        "Magnetic Field Generator",
+        "Thermal Propulsion Rocket",
+        "Nuclear Pasta",
+
+        "Water",
+        "Crude Oil",
+        "Fuel",
+        "Heavy Oil Residue",
+        "Turbofuel",
+        "Alumina Solution",
+        "Nitrogen Gas",
+        "Sulfuric Acid",
+        "Nitric Acid",
+
+        "Empty Canister",
+        "Empty Fluid Tank",
+        "Packaged Water",
+        "Packaged Oil",
+        "Packaged Fuel",
+        "Packaged Heavy Oil Residue",
+        "Packaged Turbofuel",
+        "Packaged Alumina Solution",
+        "Packaged Nitrogen Gas",
+        "Packaged Sulfuric Acid",
+        "Packaged Nitric Acid"
+    ],
+    "recipes": [
+        {
+            "tags": ["Standard", "Smelter"],
+            "recipes": [
+                {
+                    "name": "Standard Iron Ingot",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -8],
+                        ["Iron Ore", -1],
+                        ["Iron Ingot", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Copper Ingot",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -8],
+                        ["Copper Ore", -1],
+                        ["Copper Ingot", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Caterium Ingot",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -15],
+                        ["Caterium Ore", -3],
+                        ["Caterium Ingot", 1]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Standard", "Foundry"],
+            "recipes": [
+                {
+                    "name": "Standard Steel Ingot",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -64],
+                        ["Iron Ore", -3],
+                        ["Coal", -3],
+                        ["Steel Ingot", 3]
+                    ]
+                },
+                {
+                    "name": "Standard Aluminum Ingot",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", 64],
+                        ["Aluminum Scrap", -6],
+                        ["Silica", -5],
+                        ["Aluminum Ingot", 4]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Standard", "Constructor"],
+            "recipes": [
+                {
+                    "name": "Standard Iron Plate",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -12],
+                        ["Iron Ingot", -3],
+                        ["Iron Plate", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Iron Rod",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -16],
+                        ["Iron Ingot", -1],
+                        ["Iron Rod", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Screw",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -24],
+                        ["Iron Rod", -1],
+                        ["Screw", 4]
+                    ]
+                },
+                {
+                    "name": "Standard Copper Sheet",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -24],
+                        ["Copper Ingot", -2],
+                        ["Copper Sheet", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Steel Beam",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -16],
+                        ["Steel Ingot", -4],
+                        ["Steel Beam", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Steel Pipe",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -24],
+                        ["Steel Ingot", -3],
+                        ["Steel Pipe", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Aluminum Casing",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -8],
+                        ["Aluminum Ingot", -3],
+                        ["Aluminum Casing", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Wire",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -16],
+                        ["Copper Ingot", -1],
+                        ["Wire", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Cable",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -8],
+                        ["Wire", -2],
+                        ["Cable", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Quickwire",
+                    "per_machine": 12,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -20],
+                        ["Caterium Ingot", -1],
+                        ["Quickwire", 5]
+                    ]
+                },
+                {
+                    "name": "Standard Concrete",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -16],
+                        ["Limestone", -3],
+                        ["Concrete", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Quartz Crystal",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -32],
+                        ["Raw Quartz", -5],
+                        ["Quartz Crystal", 3]
+                    ]
+                },
+                {
+                    "name": "Standard Silica",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -32],
+                        ["Raw Quartz", -3],
+                        ["Silica", 5]
+                    ]
+                },
+                {
+                    "name": "Standard Copper Powder",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -24],
+                        ["Copper Ingot", -30],
+                        ["Copper Powder", 5]
+                    ]
+                },
+                {
+                    "name": "Standard Empty Canister",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -16],
+                        ["Plastic", -2],
+                        ["Empty Canister", 4]
+                    ]
+                },
+                {
+                    "name": "Standard Empty Fluid Tank",
+                    "per_machine": 60,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -4],
+                        ["Aluminum Ingot", -1],
+                        ["Empty Fluid Tank", 1]
+                    ]
+
+                }
+            ]
+        },
+
+        {
+            "tags": ["Standard", "Assembler"],
+            "recipes": [
+                {
+                    "name": "Standard Reinforced Iron Plate",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Iron Plate", -6],
+                        ["Screw", -12],
+                        ["Reinforced Iron Plate", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Modular Frame",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -900],
+                        ["Reinforced Iron Plate", -3],
+                        ["Iron Rod", -12],
+                        ["Modular Frame", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Encased Industrial Beam",
+                    "per_machine": 6,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -150],
+                        ["Steel Beam", -4],
+                        ["Concrete", -5],
+                        ["Encased Industrial Beam", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Pressure Conversion Cube",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -900],
+                        ["Fused Modular Frame", -1],
+                        ["Radio Control Unit", -2],
+                        ["Pressure Conversion Cube", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Alclad Aluminum Sheet",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -90],
+                        ["Aluminum Ingot", -3],
+                        ["Copper Ingot", -1],
+                        ["Alclad Aluminum Sheet", 3]
+                    ]
+                },
+                {
+                    "name": "Standard Rotor",
+                    "per_machine": 4,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -225],
+                        ["Iron Rod", -5],
+                        ["Screw", -25],
+                        ["Rotor", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Stator",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Steel Pipe", -3],
+                        ["Wire", -8],
+                        ["Stator", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Motor",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Rotor", -2],
+                        ["Stator", -2],
+                        ["Motor", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Heat Sink",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -120],
+                        ["Alclad Aluminum Sheet", -5],
+                        ["Copper Sheet", -3],
+                        ["Heat Sink", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Smart Plating",
+                    "per_machine": 2,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -450],
+                        ["Reinforced Iron Plate", -1],
+                        ["Rotor", -1],
+                        ["Smart Plating", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Versatile Framework",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -360],
+                        ["Modular Frame", -1],
+                        ["Steel Beam", -12],
+                        ["Versatile Framework", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Automated Wiring",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -360],
+                        ["Stator", -1],
+                        ["Cable", -20],
+                        ["Versatile Framework", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Assembly Director System",
+                    "per_machine": 0.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1200],
+                        ["Adaptive Control Unit", -2],
+                        ["Supercomputer", -1],
+                        ["Assembly Director System", 1]
+                    ]
+                },
+                {
+                    "name": "Standard AI Limiter",
+                    "per_machine": 12,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -75],
+                        ["Copper Sheet", -5],
+                        ["Quickwire", -20],
+                        ["AI Limiter", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Circuit Board",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -150],
+                        ["Copper Sheet", -2],
+                        ["Plastic", -4],
+                        ["Circuit Board", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Electromagnetic Control Rod",
+                    "per_machine": 2,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -450],
+                        ["Stator", -3],
+                        ["AI Limiter", -2],
+                        ["Electromagnetic Control Rod", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Encased Plutonium Cell",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Plutonium Pellet", -2],
+                        ["Concrete", -4],
+                        ["Encased Plutonium Cell", 1]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Standard", "Manufacturer"],
+            "recipes": [
+                {
+                    "name": "Standard Uranium Fuel Rod",
+                    "per_machine": 0.4,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -8250],
+                        ["Encased Uranium Cell", -50],
+                        ["Encased Industrial Beam", -3],
+                        ["Electromagnetic Control Rod", -5],
+                        ["Uranium Fuel Rod", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Plutonium Fuel Rod",
+                    "per_machine": 0.25,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -13200],
+                        ["Encased Plutonium Cell", -30],
+                        ["Steel Beam", -18],
+                        ["Electromagnetic Control Rod", -6],
+                        ["Heat Sink", -10],
+                        ["Plutonium Fuel Rod", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Heavy Modular Frame",
+                    "per_machine": 2,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -450],
+                        ["Modular Frame", -5],
+                        ["Steel Pipe", -15],
+                        ["Encased Industrial Beam", -5],
+                        ["Screw", -100],
+                        ["Heavy Modular Frame", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Computer",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1320],
+                        ["Circuit Board", -10],
+                        ["Cable", -9],
+                        ["Plastic", -18],
+                        ["Screw", -52],
+                        ["Computer", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Super Computer",
+                    "per_machine": 1.875,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1760],
+                        ["Computer", -2],
+                        ["AI Limiter", -2],
+                        ["High Speed Connector", -3],
+                        ["Plastic", -28],
+                        ["Supercomputer", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Crystal Oscillator",
+                    "per_machine": 0.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6600],
+                        ["Quartz Crystal", -36],
+                        ["Cable", -28],
+                        ["Reinforced Iron Plate", -5],
+                        ["Crystal Oscillator", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Radio Control Unit",
+                    "per_machine": 1.25,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -2640],
+                        ["Aluminum Casing", -32],
+                        ["Crystal Oscillator", -1],
+                        ["Computer", -1],
+                        ["Radio Control Unit", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Modular Engine",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3300],
+                        ["Motor", -2],
+                        ["Rubber", -15],
+                        ["Smart Plating", -2],
+                        ["Modular Engine", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Adaptive Control Unit",
+                    "per_machine": 0.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6600],
+                        ["Automated Wiring", -15],
+                        ["Circuit Board", -10],
+                        ["Heavy Modular Frame", -2],
+                        ["Computer", -2],
+                        ["Adaptive Control Unit", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Magnetic Field Generator",
+                    "per_machine": 0.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6600],
+                        ["Versatile Framework", -5],
+                        ["Electromagnetic Control Rod", -2],
+                        ["Battery", -10],
+                        ["Magnetic Field Generator", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Thermal Propulsion Rocket",
+                    "per_machine": 0.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6600],
+                        ["Modular Engine", -5],
+                        ["Turbo Motor", -2],
+                        ["Cooling System", -6],
+                        ["Fused Modular Frame", -2],
+                        ["Thermal Propulsion Rocket", 2]
+                    ]
+                },
+                {
+                    "name": "Standard High Speed Connector",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -880],
+                        ["Quickwire", -56],
+                        ["Cable", -10],
+                        ["Circuit Board", -1],
+                        ["High Speed Connector", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Turbo Motor",
+                    "per_machine": 1.875,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1769],
+                        ["Cooling System", -4],
+                        ["Radio Control Unit", -2],
+                        ["Motor", -4],
+                        ["Rubber", -24],
+                        ["Turbo Motor", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Beacon",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -440],
+                        ["Iron Plate", -3],
+                        ["Iron Rod", -1],
+                        ["Wire", -15],
+                        ["Cable", -2],
+                        ["Beacon", 1]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Standard", "Refinery"],
+            "recipes": [
+                {
+                    "name": "Standard Plastic",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Crude Oil", -3],
+                        ["Plastic", 2],
+                        ["Heavy Oil Residue", 1]
+                    ]
+                },
+                {
+                    "name": "Residual Plastic",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Polymer Resin", -6],
+                        ["Water", -2],
+                        ["Plastic", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Rubber",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Crude Oil", -3],
+                        ["Rubber", 2],
+                        ["Heavy Oil Residue", 2]
+                    ]
+                },
+                {
+                    "name": "Residual Rubber",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Polymer Resin", -4],
+                        ["Water", -2],
+                        ["Rubber", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Petroleum Coke",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Heavy Oil Residue", -4],
+                        ["Petroleum Coke", 12]
+                    ]
+                },
+                {
+                    "name": "Standard Fuel",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Crude Oil", -6],
+                        ["Fuel", 4],
+                        ["Polymer Resin", 3]
+                    ]
+                },
+                {
+                    "name": "Residual Fuel",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Heavy Oil Residue", -6],
+                        ["Fuel", 4]
+                    ]
+                },
+                {
+                    "name": "Standard Alumina Solution",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Bauxite", -12],
+                        ["Water", -18],
+                        ["Alumina Solution", 12],
+                        ["Silica", 5]
+                    ]
+                },
+                {
+                    "name": "Standard Aluminum Scrap",
+                    "per_machine": 60,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30],
+                        ["Alumina Solution", -4],
+                        ["Coal", -2],
+                        ["Aluminum Scrap", 6],
+                        ["Water", 2]
+                    ]
+                },
+                {
+                    "name": "Standard Sulfuric Acid",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Sulfur", -5],
+                        ["Water", -5],
+                        ["Sulfuric Acid", 5]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Standard", "Packager"],
+            "recipes": [
+                {
+                    "name": "Package Water",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -20],
+                        ["Water", -2],
+                        ["Empty Canister", -2],
+                        ["Packaged Water", 2]
+                    ]
+                },
+                {
+                    "name": "Package Oil",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -40],
+                        ["Crude Oil", -2],
+                        ["Empty Canister", -2],
+                        ["Packaged Oil", 2]
+                    ]
+                },
+                {
+                    "name": "Package Heavy Oil Residue",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -40],
+                        ["Heavy Oil Residue", -2],
+                        ["Empty Canister", -2],
+                        ["Packaged Heavy Oil Residue", 2]
+                    ]
+                },
+                {
+                    "name": "Package Fuel",
+                    "per_machine": 20,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30],
+                        ["Fuel", -2],
+                        ["Empty Canister", -2],
+                        ["Packaged Fuel", 2]
+                    ]
+                },
+                {
+                    "name": "Package Turbofuel",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -60],
+                        ["Turbofuel", -2],
+                        ["Empty Canister", -2],
+                        ["Packaged Turbofuel", 2]
+                    ]
+                },
+                {
+                    "name": "Package Alumina Solution",
+                    "per_machine": 60,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -10],
+                        ["Alumina Solution", -2],
+                        ["Empty Canister", -2],
+                        ["Packaged Alumina Solution", 2]
+                    ]
+                },
+                {
+                    "name": "Package Sulfuric Acid",
+                    "per_machine": 20,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30],
+                        ["Sulfuric Acid", -2],
+                        ["Empty Canister", -2],
+                        ["Packaged Sulfuric Acid", 2]
+                    ]
+                },
+                {
+                    "name": "Package Nitrogen Gas",
+                    "per_machine": 60,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -10],
+                        ["Nitrogen Gas", -4],
+                        ["Empty Fluid Tank", -1],
+                        ["Packaged Nitrogen Gas", 1]
+                    ]
+                },
+                {
+                    "name": "Package Nitric Acid",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -20],
+                        ["Nitric Acid", -1],
+                        ["Empty Fluid Tank", -1],
+                        ["Packaged Nitric Acid", 1]
+                    ]
+                },
+
+                {
+                    "name": "Unpackage Water",
+                    "per_machine": 60,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -10],
+                        ["Packaged Water", -2],
+                        ["Water", 2],
+                        ["Empty Canister", 2]
+                    ]
+                },
+                {
+                    "name": "Unpackage Crude Oil",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -20],
+                        ["Packaged Oil", -2],
+                        ["Crude Oil", 2],
+                        ["Empty Canister", 2]
+                    ]
+                },
+                {
+                    "name": "Unpackage Heavy Oil Residue",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -60],
+                        ["Packaged Heavy Oil Residue", -2],
+                        ["Heavy Oil Residue", 2],
+                        ["Empty Canister", 2]
+                    ]
+                },
+                {
+                    "name": "Unpackage Fuel",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -20],
+                        ["Packaged Fuel", -2],
+                        ["Fuel", 2],
+                        ["Empty Canister", 2]
+                    ]
+                },
+                {
+                    "name": "Unpackage Turbofuel",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -60],
+                        ["Packaged Turbofuel", -2],
+                        ["Turbofuel", 2],
+                        ["Empty Canister", 2]
+                    ]
+                },
+                {
+                    "name": "Unpackage Alumina Solution",
+                    "per_machine": 60,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -10],
+                        ["Packaged Alumina Solution", -2],
+                        ["Alumina Solution", 2],
+                        ["Empty Canister", 2]
+                    ]
+                },
+                {
+                    "name": "Unpackage Sulfuric Acid",
+                    "per_machine": 60,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -10],
+                        ["Packaged Sulfuric Acid", -1],
+                        ["Sulfuric Acid", 1],
+                        ["Empty Canister", 1]
+                    ]
+                },
+                {
+                    "name": "Unpackage Nitrogen Gas",
+                    "per_machine": 60,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -10],
+                        ["Packaged Nitrogen Gas", -1],
+                        ["Nitrogen Gas", 4],
+                        ["Empty Fluid Tank", 1]
+                    ]
+                },
+                {
+                    "name": "Unpackage Nitric Acod",
+                    "per_machine": 20,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30],
+                        ["Packaged Nitric Acid", -1],
+                        ["Nitric Acid", 1],
+                        ["Empty Fluid Tank", 1]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Standard", "Blender"],
+            "recipes": [
+                {
+                    "name": "Standard Cooling System",
+                    "per_machine": 6,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -750],
+                        ["Heat Sink", -2],
+                        ["Rubber", -2],
+                        ["Water", -5],
+                        ["Nitrogen Gas", -25],
+                        ["Cooling System", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Fused Modular Frame",
+                    "per_machine": 1.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3000],
+                        ["Heavy Modular Frame", -1],
+                        ["Aluminum Casing", -50],
+                        ["Nitrogen Gas", -25],
+                        ["Fused Modular Frame", 1]
+                    ]
+                },
+                {
+                    "name": "Standard Battery",
+                    "per_machine": 20,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -225],
+                        ["Sulfuric Acid", -2.5],
+                        ["Alumina Solution", -2],
+                        ["Aluminum Casing", -1],
+                        ["Battery", 1],
+                        ["Water", 1.5]
+                    ]
+                },
+                {
+                    "name": "Standard Encased Uranium Cell",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -900],
+                        ["Uranium", -10],
+                        ["Concrete", -3],
+                        ["Sulfuric Acid", -3],
+                        ["Encased Uranium Cell", 5]
+                    ]
+                },
+                {
+                    "name": "Standard Non Fissle Uranium",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Uranium Waste", -15],
+                        ["Silica", -10],
+                        ["Nitric Acid", -6],
+                        ["Sulfuric Acid", -6],
+                        ["Non Fissle Uranium", 20],
+                        ["Water", 6]
+                    ]
+                },
+                {
+                    "name": "Standard Nitric Acid",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -450],
+                        ["Nitrogen Gas", -12],
+                        ["Water", -3],
+                        ["Iron Plate", -1],
+                        ["Nitric Acid", 3]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Standard", "Particle Accelerator"],
+            "recipes": [
+                {
+                    "name": "Standard Plutonium Pellet",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30000],
+                        ["Non Fissle Uranium", -100],
+                        ["Uranium Waste", -25],
+                        ["Plutonium Pellet", 30]
+                    ]
+                },
+                {
+                    "name": "Standard Nuclear Pasta",
+                    "per_machine": 0.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -60000],
+                        ["Copper Powder", -200],
+                        ["Pressure Conversion Cube", -1],
+                        ["Nuclear Pasta", 1]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Alternate", "Smelter"],
+            "recipes": [
+                {
+                    "name": "Pure Aluminum Ingot",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -8],
+                        ["Aluminum Scrap", -2],
+                        ["Aluminum Ingot", 1]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Alternate", "Foundry"],
+            "recipes": [
+                {
+                    "name": "Iron Alloy Ingot",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -96],
+                        ["Iron Ore", -2],
+                        ["Copper Ore", -2],
+                        ["Iron Ingot", 5]
+                    ]
+                },
+                {
+                    "name": "Copper Alloy Ingot",
+                    "per_machine": 12,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -192],
+                        ["Copper Ore", -10],
+                        ["Iron Ore", -5],
+                        ["Copper Ingot", 20]
+                    ]
+                },
+                {
+                    "name": "Coke Steel Ingot",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -192],
+                        ["Iron Ore", -15],
+                        ["Petroleum Coke", -15],
+                        ["Steel Ingot", 20]
+                    ]
+                },
+                {
+                    "name": "Compacted Steel Ingot",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -192],
+                        ["Iron Ore", -6],
+                        ["Compacted Coal", -3],
+                        ["Steel Ingot", 10]
+                    ]
+                },
+                {
+                    "name": "Solid Steel Ingot",
+                    "per_machine": 20,
+                    "tags": ["Alternate"],
+                    "items": [
+                        ["Mega Joule", -48],
+                        ["Iron Ingot", -2],
+                        ["Coal", -2],
+                        ["Steel Ingot", 3]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Alternate", "Constructor"],
+            "recipes": [
+                {
+                    "name": "Steel Rod",
+                    "per_machine": 12,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -20],
+                        ["Steel Ingot", -1],
+                        ["Iron Rod", 4]
+                    ]
+                },
+                {
+                    "name": "Cast Screw",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -96],
+                        ["Iron Ingot", -5],
+                        ["Screw", 20]
+                    ]
+                },
+                {
+                    "name": "Steel Screw",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -48],
+                        ["Steel Beam", -1],
+                        ["Screw", 52]
+                    ]
+                },
+                {
+                    "name": "Iron Wire",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -96],
+                        ["Iron Ingot", -5],
+                        ["Wire", 9]
+                    ]
+                },
+                {
+                    "name": "Caterium Wire",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -16],
+                        ["Caterium Ingot", -1],
+                        ["Wire", 8]
+                    ]
+                },
+                {
+                    "name": "Steel Canister",
+                    "per_machine": 20,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -12],
+                        ["Steel Ingot", -3],
+                        ["Empty Canister", 2]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Alternate", "Assembler"],
+            "recipes": [
+                {
+                    "name": "Copper Rotor",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -240],
+                        ["Copper Sheet", -6],
+                        ["Screw", -52],
+                        ["Rotor", 3]
+                    ]
+                },
+                {
+                    "name": "Steel Rotor",
+                    "per_machine": 5,
+                    "tags": ["Alternate"],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Steel Pipe", -2],
+                        ["Wire", -6],
+                        ["Rotor", 1]
+                    ]
+                },
+                {
+                    "name": "Quickwire Stator",
+                    "per_machine": 4,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -225],
+                        ["Steel Pipe", -4],
+                        ["Quickwire", -15],
+                        ["Stator", 2]
+                    ]
+                },
+                {
+                    "name": "Electric Motor",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -240],
+                        ["Electromagnetic Control Rod", -1],
+                        ["Rotor", -2],
+                        ["Motor", 2]
+                    ]
+                },
+                {
+                    "name": "Heat Exchanger",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -90],
+                        ["Aluminum Casing", -3],
+                        ["Rubber", -3],
+                        ["Heat Sink", 1]
+                    ]
+                },
+                {
+                    "name": "Fused Wire",
+                    "per_machine": 3,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -300],
+                        ["Copper Ingot", -4],
+                        ["Caterium Ingot", -1],
+                        ["Wire", 30]
+                    ]
+                },
+                {
+                    "name": "Insulated Cable",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Wire", -9],
+                        ["Rubber", -6],
+                        ["Cable", 20]
+                    ]
+                },
+                {
+                    "name": "Quickwire Cable",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -360],
+                        ["Quickwire", -3],
+                        ["Rubber", -2],
+                        ["Cable", 11]
+                    ]
+                },
+                {
+                    "name": "Fused Quickwire",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -120],
+                        ["Caterium Ingot", -1],
+                        ["Copper Ingot", -5],
+                        ["Quickwire", 12]
+                    ]
+                },
+                {
+                    "name": "Electrode Circuit Board",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Rubber", -6],
+                        ["Petroleum Coke", -9],
+                        ["Circuit Board", 1]
+                    ]
+                },
+                {
+                    "name": "Silicon Circuit Board",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -360],
+                        ["Copper Sheet", -11],
+                        ["Silica", -11],
+                        ["Circuit Board", 5]
+                    ]
+                },
+                {
+                    "name": "Caterium Circuit Board",
+                    "per_machine": 1.25,
+                    "tags": ["Alternate"],
+                    "items": [
+                        ["Mega Joule", -720],
+                        ["Plastic", -10],
+                        ["Quickwire", -30],
+                        ["Circuit Board", 7]
+                    ]
+                },
+                {
+                    "name": "Crystal Computer",
+                    "per_machine": 0.9375,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -960],
+                        ["Circuit Board", -8],
+                        ["Crystal Oscillator", -3],
+                        ["Computer", 3]
+                    ]
+                },
+                {
+                    "name": "OC Supercomputer",
+                    "per_machine": 3,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -300],
+                        ["Radio Control Unit", -3],
+                        ["Cooling System", -3],
+                        ["Supercomputer", 1]
+                    ]
+                },
+                {
+                    "name": "Coated Iron Plate",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Iron Ingot", -10],
+                        ["Plastic", -2],
+                        ["Iron Plate", 15]
+                    ]
+                },
+                {
+                    "name": "Steel Coated Plate",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -360],
+                        ["Steel Ingot", -3],
+                        ["Plastic", -2],
+                        ["Iron Plate", 18]
+                    ]
+                },
+                {
+                    "name": "Bolted Iron Plate",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Iron Plate", -18],
+                        ["Screw", -50],
+                        ["Reinforced Iron Plate", 3]
+                    ]
+                },
+                {
+                    "name": "Stitched Iron Plate",
+                    "per_machine": 1.875,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -480],
+                        ["Iron Plate", -10],
+                        ["Wire", -20],
+                        ["Reinforced Iron Plate", 3]
+                    ]
+                },
+                {
+                    "name": "Adhered Iron Plate",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -240],
+                        ["Iron Plate", -3],
+                        ["Rubber", -1],
+                        ["Reinforced Iron Plate", 1]
+                    ]
+                },
+                {
+                    "name": "Bolted Frame",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -360],
+                        ["Reinforced Iron Plate", -3],
+                        ["Screw", -56],
+                        ["Modular Frame", 2]
+                    ]
+                },
+                {
+                    "name": "Steeled Frame",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -900],
+                        ["Reinforced Iron Plate", -2],
+                        ["Steel Pipe", -10],
+                        ["Modular Frame", 3]
+                    ]
+                },
+                {
+                    "name": "Encased Industrial Pipe",
+                    "per_machine": 4,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -225],
+                        ["Steel Pipe", -7],
+                        ["Concrete", -5],
+                        ["Encased Industrial Beam", 1]
+                    ]
+                },
+                {
+                    "name": "Alclad Casing",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -120],
+                        ["Aluminum Ingot", -20],
+                        ["Copper Ingot", -10],
+                        ["Aluminum Casing", 15]
+                    ]
+                },
+                {
+                    "name": "Coated Iron Canister",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -60],
+                        ["Iron Plate", -2],
+                        ["Copper Sheet", -1],
+                        ["Empty Canister", 4]
+                    ]
+                },
+                {
+                    "name": "Fine Concrete",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -360],
+                        ["Silica", -3],
+                        ["Limestone", -12],
+                        ["Concrete", 10]
+                    ]
+                },
+                {
+                    "name": "Rubber Concrete",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Limestone", -10],
+                        ["Rubber", -2],
+                        ["Concrete", 9]
+                    ]
+                },
+                {
+                    "name": "Alternate Compacted Coal",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Coal", -5],
+                        ["Sulfur", -5],
+                        ["Compacted Coal", 5]
+                    ]
+                },
+                {
+                    "name": "Cheap Silica",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -240],
+                        ["Raw Quartz", -3],
+                        ["Limestone", -5],
+                        ["Silica", 7]
+                    ]
+                },
+                {
+                    "name": "Electromagnetic Connection Rod",
+                    "per_machine": 4,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -225],
+                        ["Stator", -2],
+                        ["High Speed Connector", -1],
+                        ["Electromagnetic Control Rod", 2]
+                    ]
+                },
+                {
+                    "name": "Plutonium Fuel Unit",
+                    "per_machine": 0.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Encased Plutonium Cell", -20],
+                        ["Pressure Conversion Cube", -1],
+                        ["Plutonium Fuel Rod", 1]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Alternate", "Manufacturer"],
+            "recipes": [
+                {
+                    "name": "Infused Uranium Cell",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -660],
+                        ["Uranium", -5],
+                        ["Silica", -3],
+                        ["Sulfur", -5],
+                        ["Quickwire", -15],
+                        ["Encased Uranium Cell", 4]
+                    ]
+                },
+                {
+                    "name": "Uranium Fuel Unit",
+                    "per_machine": 0.2,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -16500],
+                        ["Encased Uranium Cell", -100],
+                        ["Electromagnetic Control Rod", -2],
+                        ["Crystal Oscillator", -3],
+                        ["Beacon", -6],
+                        ["Uranium Fuel Rod", 3]
+                    ]
+                },
+                {
+                    "name": "Heavy Flexible Frame",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -880],
+                        ["Modular Frame", -5],
+                        ["Encased Industrial Beam", -3],
+                        ["Rubber", -20],
+                        ["Screw", -104],
+                        ["Heavy Modular Frame", 1]
+                    ]
+                },
+                {
+                    "name": "Heavy Encased Frame",
+                    "per_machine": 0.9375,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3520],
+                        ["Modular Frame", -8],
+                        ["Encased Industrial Beam", -10],
+                        ["Steel Pipe", -36],
+                        ["Concrete", -22],
+                        ["Heavy Modular Frame", 3]
+                    ]
+                },
+                {
+                    "name": "Caterium Computer",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -880],
+                        ["Circuit Board", -7],
+                        ["Quickwire", -28],
+                        ["Rubber", -12],
+                        ["Computer", 1]
+                    ]
+                },
+                {
+                    "name": "Super State Computer",
+                    "per_machine": 0.4,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -8250],
+                        ["Computer", -9],
+                        ["Electromagnetic Control Rod", -6],
+                        ["Battery", -60],
+                        ["Wire", -135],
+                        ["Supercomputer", 6]
+                    ]
+                },
+                {
+                    "name": "Insulated Crystal Oscillator",
+                    "per_machine": 1.875,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1760],
+                        ["Quartz Crystal", -10],
+                        ["Rubber", -7],
+                        ["AI Limiter", -1],
+                        ["Crystal Oscillator", 1]
+                    ]
+                },
+                {
+                    "name": "Radio Connection Unit",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -880],
+                        ["Heat Sink", -4],
+                        ["High Speed Connector", -2],
+                        ["Quartz Crystal", -12],
+                        ["Radio Control Unit", 1]
+                    ]
+                },
+                {
+                    "name": "Radio Control System",
+                    "per_machine": 1.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -2200],
+                        ["Crystal Oscillator", -1],
+                        ["Circuit Board", -10],
+                        ["Aluminum Casing", -60],
+                        ["Rubber", -30],
+                        ["Radio Control Unit", 3]
+                    ]
+                },
+                {
+                    "name": "Plastic Smart Plating",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1320],
+                        ["Reinforced Iron Plate", -1],
+                        ["Rotor", -1],
+                        ["Rubber", -3],
+                        ["Smart Plating", 2]
+                    ]
+                },
+                {
+                    "name": "Flexible Framework",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -880],
+                        ["Modular Frame", -1],
+                        ["Steel Beam", -6],
+                        ["Rubber", -8],
+                        ["Versatile Framework", 2]
+                    ]
+                },
+                {
+                    "name": "Automated High Speed Wiring",
+                    "per_machine": 1.875,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1760],
+                        ["Stator", -2],
+                        ["Wire", -40],
+                        ["High Speed Connector", -1],
+                        ["Automated Wiring", 4]
+                    ]
+                },
+                {
+                    "name": "Silicon High Speed Connector",
+                    "per_machine": 1.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -2200],
+                        ["Quickwire", -60],
+                        ["Silica", -25],
+                        ["Circuit Board", 2],
+                        ["High Speed Connector", 2]
+                    ]
+                },
+                {
+                    "name": "Rigour Motor",
+                    "per_machine": 1.25,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -2640],
+                        ["Rotor", -3],
+                        ["Stator", -3],
+                        ["Crystal Oscillator", -1],
+                        ["Motor", 6]
+                    ]
+                },
+                {
+                    "name": "Turbo Electric Motor",
+                    "per_machine": 0.9375,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3520],
+                        ["Motor", -7],
+                        ["Radio Control Unit", -9],
+                        ["Electromagnetic Control Rod", -5],
+                        ["Rotor", -7],
+                        ["Turbo Motor", 3]
+                    ]
+                },
+                {
+                    "name": "Turbo Pressure Motor",
+                    "per_machine": 1.875,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1760],
+                        ["Motor", -4],
+                        ["Pressure Conversion Cube", -1],
+                        ["Packaged Nitrogen Gas", -24],
+                        ["Stator", -8],
+                        ["Turbo Motor", 2]
+                    ]
+                },
+                {
+                    "name": "Classic Battery",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -440],
+                        ["Sulfur", -6],
+                        ["Alclad Aluminum Sheet", -7],
+                        ["Plastic", -8],
+                        ["Wire", -12],
+                        ["Battery", 4]
+                    ]
+                },
+                {
+                    "name": "Crystal Beacon",
+                    "per_machine": 0.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6600],
+                        ["Steel Beam", -4],
+                        ["Steel Pipe", -16],
+                        ["Crystal Oscillator", -1],
+                        ["Beacon", 20]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Alternate", "Refinery"],
+            "recipes": [
+                {
+                    "name": "Pure Iron Ingot",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -360],
+                        ["Iron Ore", -7],
+                        ["Water", -4],
+                        ["Iron Ingot", 13]
+                    ]
+                },
+                {
+                    "name": "Pure Copper Ingot",
+                    "per_machine": 2.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -720],
+                        ["Copper Ore", -6],
+                        ["Water", -4],
+                        ["Copper Ingot", 15]
+                    ]
+                },
+                {
+                    "name": "Pure Caterium Ingot",
+                    "per_machine": 12,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -150],
+                        ["Caterium Ore", -2],
+                        ["Water", -2],
+                        ["Caterium Ingot", 1]
+                    ]
+                },
+                {
+                    "name": "Recycled Plastic",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -150],
+                        ["Rubber", -6],
+                        ["Fuel", -6],
+                        ["Plastic", 12]
+                    ]
+                },
+                {
+                    "name": "Alternate Polymer Resin",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Crude Oil", -6],
+                        ["Polymer Resin", 13],
+                        ["Heavy Oil Residue", 2]
+                    ]
+                },
+                {
+                    "name": "Recycled Rubber",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -150],
+                        ["Plastic", -6],
+                        ["Fuel", -6],
+                        ["Rubber", 12]
+                    ]
+                },
+                {
+                    "name": "Alternate Heavy Oil Residue",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -180],
+                        ["Crude Oil", -3],
+                        ["Heavy Oil Residue", 4],
+                        ["Polymer Resin", 2]
+                    ]
+                },
+                {
+                    "name": "Diluted Packaged Fuel",
+                    "per_machine": 30,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -60],
+                        ["Heavy Oil Residue", -1],
+                        ["Packaged Water", -2],
+                        ["Packaged Fuel", 2]
+                    ]
+                },
+                {
+                    "name": "Alternate Turbofuel",
+                    "per_machine": 3.75,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -480],
+                        ["Fuel", -6],
+                        ["Compacted Coal", -4],
+                        ["Turbofuel", 5]
+                    ]
+                },
+                {
+                    "name": "Turbo Heavy Fuel",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -240],
+                        ["Heavy Oil Residue", -5],
+                        ["Compacted Coal", -4],
+                        ["Turbofuel", 4]
+                    ]
+                },
+                {
+                    "name": "Coated Cable",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -240],
+                        ["Wire", -5],
+                        ["Heavy Oil Residue", -2],
+                        ["Cable", 9]
+                    ]
+                },
+                {
+                    "name": "Steamed Copper Sheet",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -240],
+                        ["Copper Ingot", -3],
+                        ["Water", -3],
+                        ["Concrete", 3]
+                    ]
+                },
+                {
+                    "name": "Wet Concrete",
+                    "per_machine": 20,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -90],
+                        ["Limestone", -6],
+                        ["Water", -5],
+                        ["Concrete", 4]
+                    ]
+                },
+                {
+                    "name": "Pure Quartz Crystal",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -240],
+                        ["Raw Quartz", -9],
+                        ["Water", -5],
+                        ["Quartz Crystal", 7]
+                    ]
+                },
+                {
+                    "name": "Sloppy Alumina",
+                    "per_machine": 20,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -90],
+                        ["Bauxite", -10],
+                        ["Water", -10],
+                        ["Alumina Solution", 12]
+                    ]
+                },
+                {
+                    "name": "Electrode Aluminum Scrap",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -120],
+                        ["Alumina Solution", -12],
+                        ["Petroleum Coke", -4],
+                        ["Aluminum Scrap", 20],
+                        ["Water", 7]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Alternate", "Blender"],
+            "recipes": [
+                {
+                    "name": "Diluted Fuel",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -450],
+                        ["Heavy Oil Residue", -5],
+                        ["Water", -10],
+                        ["Fuel", 10]
+                    ]
+                },
+                {
+                    "name": "Turbo Blend Fuel",
+                    "per_machine": 7.5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -600],
+                        ["Fuel", -2],
+                        ["Heavy Oil Residue", -4],
+                        ["Sulfur", -3],
+                        ["Petroleum Coke", -3],
+                        ["Turbofuel", 6]
+                    ]
+                },
+                {
+                    "name": "Cooling Device",
+                    "per_machine": 1.875,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -2400],
+                        ["Heat Sink", -5],
+                        ["Motor", -1],
+                        ["Nitrogen Gas", -24],
+                        ["Cooling System", 2]
+                    ]
+                },
+                {
+                    "name": "Heat Fused Frame",
+                    "per_machine": 3,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1500],
+                        ["Heavy Modular Frame", -1],
+                        ["Aluminum Ingot", -50],
+                        ["Nitric Acid", -8],
+                        ["Fuel", -10],
+                        ["Fused Modular Frame", 1]
+                    ]
+                },
+                {
+                    "name": "Fertile Uranium",
+                    "per_machine": 5,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -900],
+                        ["Uranium", -5],
+                        ["Uranium Waste", -5],
+                        ["Nitric Acid", -3],
+                        ["Sulfuric Acid", -5],
+                        ["Non Fissle Uranium", 20],
+                        ["Water", 8]
+                    ]
+                },
+                {
+                    "name": "Instant Scrap",
+                    "per_machine": 10,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -450],
+                        ["Bauxite", -15],
+                        ["Coal", -10],
+                        ["Sulfuric Acid", -5],
+                        ["Water", -1],
+                        ["Aluminum Scrap", 30]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Alternate", "Particle Accelerator"],
+            "recipes": [
+                {
+                    "name": "Instant Plutonium Cell",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -60000],
+                        ["Non Fissle Uranium", -150],
+                        ["Aluminum Casing", -25],
+                        ["Encased Plutonium Cell", 20]
+                    ]
+                }
+            ]
+        },
+
+
+
+        {
+            "tags": ["Extraction"],
+            "recipes": [
+                {
+                    "name": "Water Extraction (100%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1200],
+                        ["Water", 120]
+                    ]
+                },
+                {
+                    "name": "Water Extraction (250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3762],
+                        ["Water", 300]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Extraction"],
+            "recipes": [
+                {
+                    "name": "Crude Oil Extraction (Impure 100%)",
+                    "per_machine": 1,
+                    "tags": ["Oil Extraction (100%)"],
+                    "items": [
+                        ["Mega Joule", -2400],
+                        ["Crude Oil", 30]
+                    ]
+                },
+                {
+                    "name": "Crude Oil Extraction (Normal 100%)",
+                    "per_machine": 1,
+                    "tags": ["Oil Extraction (100%)"],
+                    "items": [
+                        ["Mega Joule", -2400],
+                        ["Crude Oil", 60]
+                    ]
+                },
+                {
+                    "name": "Crude Oil Extraction (Pure 100%)",
+                    "per_machine": 1,
+                    "tags": ["Oil Extraction (100%)"],
+                    "items": [
+                        ["Mega Joule", -2400],
+                        ["Crude Oil", 120]
+                    ]
+                },
+
+                {
+                    "name": "Crude Oil Extraction (Impure 250%)",
+                    "per_machine": 1,
+                    "tags": ["Oil Extraction (250%)"],
+                    "items": [
+                        ["Mega Joule", -8040],
+                        ["Crude Oil", 150]
+                    ]
+                },
+                {
+                    "name": "Crude Oil Extraction (Normal 250%)",
+                    "per_machine": 1,
+                    "tags": ["Oil Extraction (250%)"],
+                    "items": [
+                        ["Mega Joule", -8040],
+                        ["Crude Oil", 300]
+                    ]
+                },
+                {
+                    "name": "Crude Oil Extraction (Pure 250%)",
+                    "per_machine": 1,
+                    "tags": ["Oil Extraction (250%)"],
+                    "items": [
+                        ["Mega Joule", -8040],
+                        ["Crude Oil", 600]
+                    ]
+                }
+            ]
+        },
+
+
+
+        {
+            "tags": ["Ore Extraction", "Ore Extraction (Impure Mk3 250%)"],
+            "recipes": [
+                {
+                    "name": "Iron Ore Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Iron Ore", 300]
+                    ]
+                },
+                {
+                    "name": "Copper Ore Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Copper Ore", 300]
+                    ]
+                },
+                {
+                    "name": "Limestone Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Limestone", 300]
+                    ]
+                },
+                {
+                    "name": "Coal Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Coal", 300]
+                    ]
+                },
+                {
+                    "name": "Caterium Ore Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Caterium Ore", 300]
+                    ]
+                },
+                {
+                    "name": "Raw Quartz Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Raw Quartz", 300]
+                    ]
+                },
+                {
+                    "name": "Bauxite Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Bauxite", 300]
+                    ]
+                },
+                {
+                    "name": "Sulfur Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Sulfur", 300]
+                    ]
+                },
+                {
+                    "name": "Uranium Extraction (Impure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Uranium", 300]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Ore Extraction", "Ore Extraction (Normal Mk3 250%)"],
+            "recipes": [
+                {
+                    "name": "Iron Ore Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Iron Ore", 600]
+                    ]
+                },
+                {
+                    "name": "Copper Ore Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Copper Ore", 600]
+                    ]
+                },
+                {
+                    "name": "Limestone Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Limestone", 600]
+                    ]
+                },
+                {
+                    "name": "Coal Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Coal", 600]
+                    ]
+                },
+                {
+                    "name": "Caterium Ore Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Caterium Ore", 600]
+                    ]
+                },
+                {
+                    "name": "Raw Quartz Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Raw Quartz", 600]
+                    ]
+                },
+                {
+                    "name": "Bauxite Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Bauxite", 600]
+                    ]
+                },
+                {
+                    "name": "Sulfur Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Sulfur", 600]
+                    ]
+                },
+                {
+                    "name": "Uranium Extraction (Normal Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -6042],
+                        ["Uranium", 600]
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tags": ["Ore Extraction", "Ore Extraction (Pure Mk3 250%)"],
+            "recipes": [
+                {
+                    "name": "Iron Ore Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Iron Ore", 780]
+                    ]
+                },
+                {
+                    "name": "Copper Ore Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Copper Ore", 780]
+                    ]
+                },
+                {
+                    "name": "Limestone Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Limestone", 780]
+                    ]
+                },
+                {
+                    "name": "Coal Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Coal", 780]
+                    ]
+                },
+                {
+                    "name": "Caterium Ore Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Caterium Ore", 780]
+                    ]
+                },
+                {
+                    "name": "Raw Quartz Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Raw Quartz", 780]
+                    ]
+                },
+                {
+                    "name": "Bauxite Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Bauxite", 780]
+                    ]
+                },
+                {
+                    "name": "Sulfur Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Sulfur", 780]
+                    ]
+                },
+                {
+                    "name": "Uranium Extraction (Pure Mk3 250%)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -3420],
+                        ["Uranium", 780]
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tags": ["Well Extraction"],
+            "recipes": [
+                {
+                    "name": "Nitrogen Gas Well Extraction 1",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Nitrogen Gas", 1950]
+                    ]
+                },
+                {
+                    "name": "Nitrogen Gas Well Extraction 2",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Nitrogen Gas", 1800]
+                    ]
+                },
+                {
+                    "name": "Nitrogen Gas Well Extraction 3",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Nitrogen Gas", 2100]
+                    ]
+                },
+                {
+                    "name": "Nitrogen Gas Well Extraction 4",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Nitrogen Gas", 3000]
+                    ]
+                },
+                {
+                    "name": "Nitrogen Gas Well Extraction 5",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Nitrogen Gas", 1650]
+                    ]
+                },
+                {
+                    "name": "Nitrogen Gas Well Extraction 6",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Nitrogen Gas", 1500]
+                    ]
+                },
+
+
+                {
+                    "name": "Water Well Extraction 1",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Water", 1500]
+                    ]
+                },
+                {
+                    "name": "Water Well Extraction 2",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Water", 1575]
+                    ]
+                },
+                {
+                    "name": "Water Well Extraction 3",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Water", 1500]
+                    ]
+                },
+                {
+                    "name": "Water Well Extraction 4",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Water", 2100]
+                    ]
+                },
+                {
+                    "name": "Water Well Extraction 5",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Water", 1800]
+                    ]
+                },
+                {
+                    "name": "Water Well Extraction 6",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Water", 1950]
+                    ]
+                },
+                {
+                    "name": "Water Well Extraction 7",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Water", 1650]
+                    ]
+                },
+                {
+                    "name": "Water Well Extraction 8",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Water", 1050]
+                    ]
+                },
+
+
+                {
+                    "name": "Crude Oil Well Extraction 1",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Crude Oil", 1350]
+                    ]
+                },
+                {
+                    "name": "Crude Oil Well Extraction 2",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -30219.6],
+                        ["Crude Oil", 450]
+                    ]
+                }
+            ]
+        },
+
+
+
+        {
+            "tags": ["Power"],
+            "recipes": [
+                {
+                    "name": "Burn Coal",
+                    "per_machine": 15,
+                    "tags": [],
+                    "items": [
+                        ["Coal", -1],
+                        ["Water", -3],
+                        ["Mega Joule", 300]
+                    ]
+                },
+                {
+                    "name": "Burn Petroleum Coke",
+                    "per_machine": 25,
+                    "tags": [],
+                    "items": [
+                        ["Petroleum Coke", -1],
+                        ["Water", -1.8],
+                        ["Mega Joule", 180]
+                    ]
+                },
+                {
+                    "name": "Burn Fuel",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Fuel", -12],
+                        ["Mega Joule", 9000]
+                    ]
+                },
+                {
+                    "name": "Burn Turbofuel",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Turbofuel", -4.5],
+                        ["Mega Joule", 9000]
+                    ]
+                },
+                {
+                    "name": "Burn Uranium Fuel Rod",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Uranium Fuel Rod", -0.2],
+                        ["Mega Joule", 150000],
+                        ["Uranium Waste", 10]
+                    ]
+                }
+            ]
+        },
+
+
+
+        {
+            "tags": ["Sink", "Sink (Mk5)"],
+            "recipes": [
+                {
+                    "name": "Sink Iron Ore (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Iron Ore", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Copper Ore (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Copper Ore", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Limestone (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Limestone", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Coal (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Coal", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Caterium Ore (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Caterium Ore", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Raw Quartz (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Raw Quartz", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Bauxite (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Bauxite", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Sulfur (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Sulfur", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Uranium (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Uranium", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Iron Ingot (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Iron Ingot", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Copper Ingot (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Copper Ingot", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Caterium Ingot (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Caterium Ingot", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Steel Ingot (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Steel Ingot", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Aluminum Ingot (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Aluminum Ingot", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Iron Plate (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Iron Plate", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Iron Rod (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Iron Rod", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Screw (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Screw", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Concrete (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Concrete", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Compacted Coal (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Compacted Coal", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Wire (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Wire", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Cable (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Cable", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Copper Sheet (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Copper Sheet", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Quickwire (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Quickwire", -780]
+                    ]
+                },
+                {
+                    "name": "Sink AI Limiter (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["AI Limiter", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Circuit Board (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Circuit Board", -780]
+                    ]
+                },
+                {
+                    "name": "Sink High Speed Connector (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["High Speed Connector", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Quartz Crystal (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Quartz Crystal", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Silica (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Silica", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Steel Beam (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Steel Beam", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Steel Pipe (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Steel Pipe", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Encased Industrial Beam (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Encased Industrial Beam", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Reinforced Iron Plate (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Reinforced Iron Plate", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Rotor (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Rotor", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Stator (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Stator", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Motor (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Motor", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Modular Frame (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Modular Frame", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Heavy Modular Frame (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Heavy Modular Frame", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Fused Modular Frame (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Fused Modular Frame", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Beacon (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Beacon", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Computer (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Computer", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Crystal Oscillator (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Crystal Oscillator", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Radio Control Unit (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Radio Control Unit", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Supercomputer (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Supercomputer", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Turbo Motor (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Turbo Motor", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Rubber (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Rubber", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Plastic (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Plastic", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Polymer Resin (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Polymer Resin", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Petroleum Coke (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Petroleum Coke", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Aluminum Scrap (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Aluminum Scrap", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Aluminum Casing (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Aluminum Casing", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Alclad Aluminum Sheet (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Alclad Aluminum Sheet", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Heat Sink (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Heat Sink", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Cooling System (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Cooling System", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Battery (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Battery", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Encased Uranium Cell (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Encased Uranium Cell", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Electromagnetic Control Rod (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Electromagnetic Control Rod", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Uranium Fuel Rod (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Uranium Fuel Rod", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Plutonium Fuel Rod (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Plutonium Fuel Rod", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Pressure Conversion Cube (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Pressure Conversion Cube", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Copper Powder (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Copper Powder", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Smart Plating (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Smart Plating", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Versatile Framework (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Versatile Framework", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Automated Wiring (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Automated Wiring", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Modular Engine (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Modular Engine", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Adaptive Control Unit (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Adaptive Control Unit", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Assembly Director System (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Assembly Director System", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Magnetic Field Generator (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Magnetic Field Generator", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Thermal Propulsion Rocket (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Thermal Propulsion Rocket", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Nuclear Pasta (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Nuclear Pasta", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Empty Canister (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Empty Canister", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Empty Fluid Tank (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Empty Fluid Tank", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Water (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Water", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Oil (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Oil", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Fuel (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Fuel", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Heavy Oil Residue (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Heavy Oil Residue", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Turbofuel (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Turbofuel", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Alumina Solution (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Alumina Solution", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Nitrogen Gas (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Nitrogen Gas", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Sulfuric Acid (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Sulfuric Acid", -780]
+                    ]
+                },
+                {
+                    "name": "Sink Packaged Nitric Acid (Mk5)",
+                    "per_machine": 1,
+                    "tags": [],
+                    "items": [
+                        ["Mega Joule", -1800],
+                        ["Packaged Nitric Acid", -780]
+                    ]
+                }
+            ]
+        }
+    ]
+}

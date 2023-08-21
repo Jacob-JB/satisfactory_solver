@@ -1,0 +1,17 @@
+{
+    "round_zeros": 10,
+    "rules": [
+        {"Equal": ["Reinforced Iron Plate", 6]},
+        {"Equal": ["Rotor", 4]},
+        {"Equal": ["Modular Frame", 2.5]},
+        {"Equal": ["Smart Plating", 4]},
+
+        {"LessThan": ["Mega Joule", 0]},
+        {"LessThan": ["Iron Ore", 0]}
+    ],
+    "optimize": [
+    ],
+    "enabled_recipes": [
+        "Standard"
+    ]
+}

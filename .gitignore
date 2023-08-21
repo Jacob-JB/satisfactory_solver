@@ -1,5 +1,6 @@
 /target
-/configs
-/outputs
 /sub_configs
 /sub_outputs
+/configs
+/outputs
+/dev_configs

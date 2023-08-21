@@ -1,0 +1,82 @@
+{
+    "round_zeros": 8,
+    "rules": [
+        {"GreaterThan": ["Mega Joule", 0]},
+
+
+        {"LessThan": ["Iron Ore Extraction (Impure Mk3 250%)", 33]},
+        {"LessThan": ["Iron Ore Extraction (Normal Mk3 250%)", 41]},
+        {"LessThan": ["Iron Ore Extraction (Pure Mk3 250%)", 46]},
+
+        {"LessThan": ["Copper Ore Extraction (Impure Mk3 250%)", 9]},
+        {"LessThan": ["Copper Ore Extraction (Normal Mk3 250%)", 28]},
+        {"LessThan": ["Copper Ore Extraction (Pure Mk3 250%)", 12]},
+
+        {"LessThan": ["Limestone Extraction (Impure Mk3 250%)", 12]},
+        {"LessThan": ["Limestone Extraction (Normal Mk3 250%)", 47]},
+        {"LessThan": ["Limestone Extraction (Pure Mk3 250%)", 27]},
+
+        {"LessThan": ["Coal Extraction (Impure Mk3 250%)", 6]},
+        {"LessThan": ["Coal Extraction (Normal Mk3 250%)", 29]},
+        {"LessThan": ["Coal Extraction (Pure Mk3 250%)", 15]},
+
+        {"LessThan": ["Caterium Ore Extraction (Impure Mk3 250%)", 0]},
+        {"LessThan": ["Caterium Ore Extraction (Normal Mk3 250%)", 8]},
+        {"LessThan": ["Caterium Ore Extraction (Pure Mk3 250%)", 8]},
+
+        {"LessThan": ["Raw Quartz Extraction (Impure Mk3 250%)", 0]},
+        {"LessThan": ["Raw Quartz Extraction (Normal Mk3 250%)", 11]},
+        {"LessThan": ["Raw Quartz Extraction (Pure Mk3 250%)", 5]},
+
+        {"LessThan": ["Sulfur Extraction (Impure Mk3 250%)", 1]},
+        {"LessThan": ["Sulfur Extraction (Normal Mk3 250%)", 7]},
+        {"LessThan": ["Sulfur Extraction (Pure Mk3 250%)", 3]},
+
+        {"LessThan": ["Bauxite Extraction (Impure Mk3 250%)", 5]},
+        {"LessThan": ["Bauxite Extraction (Normal Mk3 250%)", 6]},
+        {"LessThan": ["Bauxite Extraction (Pure Mk3 250%)", 6]},
+
+        {"LessThan": ["Uranium Extraction (Impure Mk3 250%)", 1]},
+        {"LessThan": ["Uranium Extraction (Normal Mk3 250%)", 3]},
+        {"LessThan": ["Uranium Extraction (Pure Mk3 250%)", 0]},
+
+
+        {"LessThan": ["Crude Oil Extraction (Impure 250%)", 10]},
+        {"LessThan": ["Crude Oil Extraction (Normal 250%)", 12]},
+        {"LessThan": ["Crude Oil Extraction (Pure 250%)", 8]},
+
+
+
+        {"LessThan": ["Nitrogen Gas Well Extraction 1", 1]},
+        {"LessThan": ["Nitrogen Gas Well Extraction 2", 1]},
+        {"LessThan": ["Nitrogen Gas Well Extraction 3", 1]},
+        {"LessThan": ["Nitrogen Gas Well Extraction 4", 1]},
+        {"LessThan": ["Nitrogen Gas Well Extraction 5", 1]},
+        {"LessThan": ["Nitrogen Gas Well Extraction 6", 1]},
+
+        {"LessThan": ["Water Well Extraction 1", 1]},
+        {"LessThan": ["Water Well Extraction 2", 1]},
+        {"LessThan": ["Water Well Extraction 3", 1]},
+        {"LessThan": ["Water Well Extraction 4", 1]},
+        {"LessThan": ["Water Well Extraction 5", 1]},
+        {"LessThan": ["Water Well Extraction 6", 1]},
+        {"LessThan": ["Water Well Extraction 7", 1]},
+        {"LessThan": ["Water Well Extraction 8", 1]},
+
+        {"LessThan": ["Crude Oil Well Extraction 1", 1]},
+        {"LessThan": ["Crude Oil Well Extraction 2", 1]}
+    ],
+    "optimize": [
+        ["Mega Joule", 1]
+    ],
+    "enabled_recipes": [
+        "Standard",
+        "Alternate",
+        "Burn Uranium Fuel Rod",
+        "Water Extraction (100%)",
+        "Oil Extraction (250%)",
+        "Ore Extraction",
+        "Well Extraction",
+        "Sink"
+    ]
+}
